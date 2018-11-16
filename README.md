@@ -1,2 +1,2 @@
 # frontis
-Small gulp boilerplate for a frontend project
+Small gulp boilerplate for frontend projects
