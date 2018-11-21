@@ -13,7 +13,7 @@ $ npm install @litenkod/frontis
 ## Usage
 
 ```js
-const tiny = require("@bamblehorse/tiny");
+const console2 = require("@litenkod/frontis");
 
 console2(arry, object, arm const, let);
 tiny("So much space!");
