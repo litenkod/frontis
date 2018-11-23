@@ -1,7 +1,7 @@
 {
     "name": "@litenkod/frontis",
     "version": "1.0.3",
-    "description": "Removes all spaces from a string",
+    "description": "Small fancy console.log to show typeof and elements. Console2(element)",
     "license": "MIT",
     "repository": "litenkod/frontis",
     "main": "index.js",
