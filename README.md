@@ -12,15 +12,40 @@ $ npm install @litenkod/frontis
 ## Usage
 
 ### console2
-structure console.log
-console.log('typeof:' + element);
+structure console.log('typeof:' + element);
+
 ```js
 const {console2} = require("@litenkod/frontis");
 
 //console.log with finess
 console2(string, array, object, boolean, undefined);
 
+var test1 = 'test';
+var test2 = ['test1', 'test2', 'test3'];
+var test3 = {test1: '1 test', test2: false};
+var test4 = true;
+
+console2(test1);
+// string
+// test
+
+console2(test2);
+// [array]
+// 0: test1
+// 1: test2
+// 2: test3
+
+console2(test3);
+// {object}
+// key: test1, val: 1 test
+// key: test2, val: false
+
+console2(test4);
+// boolean
+// true
+
+//ERROR
 console2();
-//=> Uncaught TypeError: console2 wants something to log!
+//=> console2 wants something to log!
 ```
 
