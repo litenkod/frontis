@@ -1,7 +1,7 @@
 
 module.exports = {
     console2: function(element) {
-        if (!element) throw new TypeError("console2 wants something to log!");
+        if (element === null) throw new TypeError("console2 wants something to log!");
 
         let varType = element,
             value = '';
