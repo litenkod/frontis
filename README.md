@@ -1,6 +1,6 @@
 # frontis
 
-[![npm (scoped)](https://img.shields.io/npm/v/:scope/:package.svg)](https://github.com/litenkod/frontis)
+[![npm (scoped)](https://img.shields.io/npm/v/@litenkod/frontis.svg)](https://github.com/litenkod/frontis)
 
 Small fancy console.log to show typeof and element values, console.log('typeof:' + element);
 

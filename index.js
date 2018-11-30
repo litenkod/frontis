@@ -8,7 +8,6 @@ module.exports = {
 
         if (typeof(element) == 'undefined') {
             varType = 'undefined';
-            value = element;
 
         } else if (Array.isArray(element)) {
             varType = '[array]';
