@@ -2,7 +2,7 @@
 
 [![npm (scoped)](https://img.shields.io/npm/v/:scope/:package.svg)](https://github.com/litenkod/frontis)
 
-Small fancy console.log to show typeof and elements.
+Small fancy console.log to show typeof and element values, console.log('typeof:' + element);
 
 ## Install
 ```
@@ -11,12 +11,20 @@ $ npm install @litenkod/frontis
 
 ## Usage
 
-### console2
-structure console.log('typeof:' + element);
+### Require
 
 ```js
-const {console2} = require("@litenkod/frontis");
+const frontis = require("@litenkod/frontis");
+frontis.console2(xxx);
 
+//or
+const {console2} = require("@litenkod/frontis");
+console2(xxx);
+```
+
+### How to use
+
+```js
 //console.log with finess
 console2(string, array, object, boolean, undefined);
 

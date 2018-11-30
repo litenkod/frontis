@@ -1,6 +1,6 @@
 {
     "name": "@litenkod/frontis",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "Small fancy console.log to show typeof and elements. Console2(element)",
     "license": "MIT",
     "repository": "litenkod/frontis",
